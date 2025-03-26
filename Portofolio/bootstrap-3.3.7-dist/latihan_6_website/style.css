@@ -1,0 +1,319 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* style css saya */
+
+body {
+    font: 16px/28px "Times New Roman", serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(gambar2.jpeg);
+}
+
+.top-bar {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: purple;
+    border-bottom: 3px solid black;
+    z-index: 9999;
+}
+
+.container {
+    width: 960px;
+    margin: 60px auto;
+    background-color: #fff;
+    border: 4px solid #2F4F4F;
+    position: relative;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    background-image: url(./instagram4.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.facebook {
+    width: 100px;
+    height: 100px;
+    background-image: url(./facebook2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 26px;
+    right: 150px;
+}
+
+.header {
+    padding: 25px;
+    padding-bottom: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: blueviolet;
+    padding: 3px;
+}
+
+.header ul a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.main_image {
+    height: 300px;
+    background-image: url(gambar1.jpg);
+    background-size: cover;
+    background-position: 0 -40px;
+    border-top: 5px solid green;
+    border-bottom: 5px solid blue;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .author {
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.main .author a {
+    text-decoration: none;
+    color: blueviolet
+}
+
+.main .author a:hover {
+    color: coral
+}
+
+.main p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+.sidebar img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    /* margin: auto; */
+    float: left;
+    margin-right: 7px;
+
+}
+
+.sidebar p {
+    text-align: justify;
+    font: 12px/18px arial;
+}
+
+.footer {
+    background-color: cadetblue;
+    padding: 10px;
+    border-top: 5px solid #2F4F4F;
+}
+
+.footer .copy {
+    color: aliceblue;
+    text-align: center;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    zoom: 1;
+}
+
+.down-bar {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: purple;
+    border-top: 3px solid black;
+    z-index: 9999;
+}
